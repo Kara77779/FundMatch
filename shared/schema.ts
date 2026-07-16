@@ -4,7 +4,6 @@ import { z } from "zod";
 import { relations, sql } from "drizzle-orm";
 
 export * from "./models/auth";
-export * from "./models/chat";
 import { users } from "./models/auth";
 
 // Projects table - core startup/fundraising project
