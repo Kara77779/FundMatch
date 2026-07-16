@@ -6,6 +6,18 @@ FundMatch guides founders through a structured, conversational interview, conver
 
 > Status: working prototype. Built as a product and engineering experiment with AI-assisted development on Replit.
 
+## Product preview
+
+![FundMatch product preview](docs/images/fundmatch-hero.jpg)
+
+<details>
+<summary>View the full landing-page flow</summary>
+<br />
+
+![FundMatch full product flow](docs/images/fundmatch-product.jpg)
+
+</details>
+
 ## Product flow
 
 ```mermaid
@@ -60,7 +72,15 @@ Prerequisites: Node.js 20+, PostgreSQL, and the required authentication and AI e
 
 ```bash
 npm install
+cp .env.example .env
 npm run dev
+```
+
+To preview the public product interface without configuring a database, authentication, or an AI provider:
+
+```bash
+npm install
+npm run dev:ui
 ```
 
 Core environment variables:
